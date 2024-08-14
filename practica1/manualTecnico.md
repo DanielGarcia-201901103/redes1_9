@@ -127,6 +127,44 @@
 ![Configuración ip Ti](./images/ipconfigurar_Ti.png)
 
 
-### Pings entre los hosts (comunicación entre áreas, solo 5 en total, ustedes eligen) (capturas de pantalla en el manual técnico).
+### Pings entre los hosts 🛜
+### Realización del ping 1️⃣.
+![Ping 1](./images/ping1.png)
+### Realización del ping 2️⃣.
+![Ping 2](./images/ping2.png)
+### Realización del ping 3️⃣.
+![Ping 3](./images/ping3.png)
+### Realización del ping 4️⃣.
+![Ping 4](./images/ping4.png)
+### Realización del ping 5️⃣.
+![Ping 5](./images/ping5.png)
 
 ### Demostración de la captura de un paquete ARP/ICMP (solo 1 en general), incluyendo captura de pantalla. 
+
+---
+### Configuración de switches
+Para la configuración de los switches se utilizaron los comandos 
+```
+enable
+configure terminal
+enable secret numerodeswitch "el comando enable secret fue utilizado para establecer una contraseña "
+do write
+do write memory
+do copy running-config startup-config
+exit
+exit
+```
+# Configuración del Switch1
+![cs1](./images/confswitch1.png)
+# Configuración del Switch1 Parte 2
+![cs12](./images/contraswitch1.png)
+# Login del Switch1
+![log1](./images/loginswitch1.png)
+# Configuración del Switch2
+![cs2](./images/confwitch2.png)
+# Login del Switch2
+![log2](./images/loginswitch2.png)
+# Configuración del Switch3
+![config3](./images/confwitch3.png)
+# Login del Switch3
+![s3](./images/logswitch3.png)
