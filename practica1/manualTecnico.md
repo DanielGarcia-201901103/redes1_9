@@ -36,7 +36,7 @@
 
 ![Ip recursos humanos](./images/asignacionIp.png)
 
-1. Recursos Humanos - VPC con ip 192.168.18.12
+1. **Recursos Humanos - VPC con ip 192.168.18.12**
 - nombrando VPC con ip
 
 ![Ip recursos humanos](./images/ip_rh.png)
@@ -45,7 +45,7 @@
 
 ![Configuración Ip rh](./images/ipconfigurar_rh.png)
 
-2. Gerencia y Secretaría - VPC con ip 192.168.18.19
+2. **Gerencia y Secretaría - VPC con ip 192.168.18.19**
 - nombrando VPC con ip
 
 ![Ip gerencia y secretaria](./images/ip_gerencia.png)
@@ -54,7 +54,7 @@
 
 ![Configuración ip gerencia](./images/ipconfigurar_gerencia.png)
 
-3. Administración - VPC con ip 192.168.18.18
+3. **Administración - VPC con ip 192.168.18.18**
 - nombrando VPC con ip
 
 ![Ip Administración](./images/ip_administracion.png)
@@ -63,7 +63,7 @@
 
 ![Configuración ip Administración](./images/ipconfigurar_administracion.png)
 
-4. Atención al cliente - VPC con ip 192.168.18.17
+4. **Atención al cliente - VPC con ip 192.168.18.17**
 - nombrando VPC con ip
 
 ![Ip atención al cliente](./images/ip_atencioncliente.png)
@@ -72,7 +72,7 @@
 
 ![Configuración ip atención al cliente](./images/ipconfigurar_atencioncliente.png)
 
-5. Oficina A - VPC con ip 192.168.18.22
+5. **Oficina A - VPC con ip 192.168.18.22**
 - nombrando VPC con ip
 
 ![Ip oficina A](./images/ip_oficinaA.png)
@@ -81,7 +81,7 @@
 
 ![Configuración ip Oficina A](./images/ipconfigurar_oficinaA.png)
 
-6. Oficina B - VPC con ip 192.168.18.29
+6. **Oficina B - VPC con ip 192.168.18.29**
 - nombrando VPC con ip
 
 ![Ip oficina B](./images/ip_oficinaB.png)
@@ -90,7 +90,7 @@
 
 ![Configuración ip Oficina B](./images/ipconfigurar_oficinaB.png)
 
-7. Oficina C - VPC con ip 192.168.18.24
+7. **Oficina C - VPC con ip 192.168.18.24**
 - nombrando VPC con ip
 
 ![Ip oficina C](./images/ip_oficinaC.png)
@@ -99,7 +99,7 @@
 
 ![Configuración ip Oficina C](./images/ipconfigurar_oficinaC.png)
 
-8. Ventas - VPC con ip 192.168.18.30
+8. **Ventas - VPC con ip 192.168.18.30**
 - nombrando VPC con ip
 
 ![Ip ventas](./images/ip_ventas.png)
@@ -108,7 +108,7 @@
 
 ![Configuración ip ventas](./images/ipconfigurar_ventas.png)
 
-9. Recepción - VPC con ip 192.168.18.31
+9. **Recepción - VPC con ip 192.168.18.31**
 - nombrando VPC con ip
 
 ![Ip recepción](./images/ip_recepcion.png)
@@ -117,7 +117,7 @@
 
 ![Configuración ip recepción](./images/ipconfigurar_recepcion.png)
 
-10. Ti - VPC con ip 192.168.18.32
+10. **Ti - VPC con ip 192.168.18.32**
 - nombrando VPC con ip
 
 ![Ip Ti](./images/ip_Ti.png)
