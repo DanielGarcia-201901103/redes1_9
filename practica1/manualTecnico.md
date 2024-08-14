@@ -33,26 +33,48 @@
     -   192.168.18.32
     -   192.168.18.33
     -   192.168.18.34
-      
-1. Recursos Humanos
 
-2. Gerencia y Secretaría
+![Ip recursos humanos](./images/asignacionIp.png)
 
-3. Administración
+1. Recursos Humanos - VPC con ip 192.168.18.12
+- nombrando VPC con ip
+![Ip recursos humanos](./images/ip_rh.png)
 
-4. Atención al cliente
+2. Gerencia y Secretaría - VPC con ip 192.168.18.19
+- nombrando VPC con ip
+![Ip gerencia y secretaria](./images/ip_gerencia.png)
 
-5. Oficina A
+3. Administración - VPC con ip 192.168.18.18
+- nombrando VPC con ip
+![Ip Administración](./images/ip_administracion.png)
 
-6. Oficina B
+4. Atención al cliente - VPC con ip 192.168.18.17
+- nombrando VPC con ip
+![Ip atención al cliente](./images/ip_atencioncliente.png)
 
-7. Oficina C
+5. Oficina A - VPC con ip 192.168.18.22
+- nombrando VPC con ip
+![Ip oficina A](./images/ip_oficinaA.png)
 
-8. Ventas
+6. Oficina B - VPC con ip 192.168.18.29
+- nombrando VPC con ip
+![Ip oficina B](./images/ip_oficinaB.png)
 
-9. Recepción
+7. Oficina C - VPC con ip 192.168.18.24
+- nombrando VPC con ip
+![Ip oficina C](./images/ip_oficinaC.png)
 
-10. Ti
+8. Ventas - VPC con ip 192.168.18.30
+- nombrando VPC con ip
+![Ip ventas](./images/ip_ventas.png)
+
+9. Recepción - VPC con ip 192.168.18.31
+- nombrando VPC con ip
+![Ip recepción](./images/ip_recepcion.png)
+
+10. Ti - VPC con ip 192.168.18.32
+- nombrando VPC con ip
+![Ip Ti](./images/ip_Ti.png)
 
 
 ### Pings entre los hosts (comunicación entre áreas, solo 5 en total, ustedes eligen) (capturas de pantalla en el manual técnico).
