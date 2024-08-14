@@ -1,5 +1,5 @@
 Redes 1 Grupo #9  👨‍💻
-Actividades de Laboratorio de redes 2do Semestre 2024
+## Actividades de Laboratorio de redes 2do Semestre 2024
 ---
 ### Integrantes 
 | # | Nombre                                | Carnet    |
