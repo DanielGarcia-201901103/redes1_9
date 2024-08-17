@@ -141,7 +141,7 @@
 
 ### Demostración de la captura de un paquete ARP/ICMP (solo 1 en general), incluyendo captura de pantalla. 
 
-A continuación se presenta el envío de un paquete de la VPC de administración (192.168.18.18) hacia la VPC perteneciente a la oficina C (192.168.18.23):
+A continuación se presenta el envío de un paquete de la VPC de administración (192.168.18.18) hacia la VPC perteneciente a la oficina C (192.168.18.23) que se encuentra en el Nivel 2:
 
 ![Captura de paquetes](./images/Captura_de_paquetes.JPG)
 
