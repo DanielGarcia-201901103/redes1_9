@@ -159,7 +159,7 @@ Al ejecutar el simulador, se comienzan a enviar los paquetes y se puede observar
 
 En la siguiente imagen se puede observar como el paquete ICMP llego a la VPC de la oficina C (192.168.18.23) sin ningún inconveniente, por lo cual su conectividad con la VPC de administración (192.168.18.18) esta correcta.
 
-![Captura de paquetes 5](./images/Captura_de_paquetes_5.JPG)
+![Captura de paquetes 5](./images/Captura_de_Paquetes_5.JPG)
 
 Ahora en el panel de simulación se puede observar dos eventos:
 
