@@ -141,6 +141,23 @@
 
 ### Demostración de la captura de un paquete ARP/ICMP (solo 1 en general), incluyendo captura de pantalla. 
 
+A continuación se presenta el envío de un paquete de la VPC de administración (192.168.18.18) hacia la VPC perteneciente a la oficina C (192.168.18.23):
+
+![Captura de paquetes](./images/captura_de_paquetes.JPG)
+
+Como se puede observar en la siguiente imagen, los se utilizarón los protocolos ICMP y ARP. El protocolo ICMP es un protocolo de red que su funcion es realizar envios de mensajes de control es este caso en la red entre oficinas, esto con el proposito de verificar si las VPC tienen conectividad entre si. El color del paquete se identifica con el color azul:
+
+![Captura de paquetes 2](./images/captura_de_paquetes6.JPG)
+
+De la misma manera se utilizó el protocolo ARP que es utilizado para mapear direcciones IP a direcciones MAC que es esencial para la comunicación en la capa de enlace de datos, en pocas palaras estre protocolo se utiliza para traducir direcciones IP a direcciones MAC, que son necesarias en la capa de enlace de datos para enviar paquetes a traves de nuestra red. El color del paquete enviado es verde: 
+
+![Captura de paquetes 3](./images/captura_de_paquetes2.JPG)
+
+Al ejecutar el simulador, se comienzan a enviar los paquetes y se puede observar el flujo de envío:
+
+![Captura de paquetes 4](./images/captura_de_paquetes3.JPG)
+
+
 ---
 ### Configuración de switches
 Para la configuración de los switches se utilizaron los comandos 
