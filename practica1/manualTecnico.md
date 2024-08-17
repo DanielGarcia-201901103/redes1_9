@@ -145,18 +145,35 @@ A continuación se presenta el envío de un paquete de la VPC de administración
 
 ![Captura de paquetes](./images/Captura_de_paquetes.JPG)
 
-Como se puede observar en la siguiente imagen, los se utilizarón los protocolos ICMP y ARP. El protocolo ICMP es un protocolo de red que su funcion es realizar envios de mensajes de control es este caso en la red entre oficinas, esto con el proposito de verificar si las VPC tienen conectividad entre si. El color del paquete se identifica con el color azul:
+Como se puede observar en la siguiente imagen, los se utilizarón los protocolos ICMP y ARP. El protocolo ICMP es un protocolo de red que su funcion es realizar envios de mensajes de control y conectividad. El color del paquete se identifica con el color azul:
 
-![Captura de paquetes 2](./images/Captura_de_paquetes6.JPG)
+![Captura de paquetes 2](./images/Captura_de_paquetes_6.JPG)
 
-De la misma manera se utilizó el protocolo ARP que es utilizado para mapear direcciones IP a direcciones MAC que es esencial para la comunicación en la capa de enlace de datos, en pocas palaras estre protocolo se utiliza para traducir direcciones IP a direcciones MAC, que son necesarias en la capa de enlace de datos para enviar paquetes a traves de nuestra red. El color del paquete enviado es verde: 
+De la misma manera se utilizó el protocolo ARP que es utilizado para mapear direcciones IP a direcciones MAC que es esencial para la comunicación en la capa de enlace de datos. El color del paquete enviado es verde: 
 
-![Captura de paquetes 3](./images/Captura_de_paquetes2.JPG)
+![Captura de paquetes 3](./images/Captura_de_paquetes_2.JPG)
 
 Al ejecutar el simulador, se comienzan a enviar los paquetes y se puede observar el flujo de envío:
 
-![Captura de paquetes 4](./images/Captura_de_paquetes3.JPG)
+![Captura de paquetes 4](./images/Captura_de_paquetes_3.JPG)
 
+En la siguiente imagen se puede observar como el paquete ICMP llego a la VPC de la oficina C (192.168.18.23) sin ningún inconveniente, por lo cual su conectividad con la VPC de administración (192.168.18.18) esta correcta.
+
+![Captura de paquetes 5](./images/Captura_de_paquetes_5.JPG)
+
+Ahora en el panel de simulación se puede observar dos eventos:
+
+Evento ICMP: Indica que hay un proceso de prueba de conectividad o intercambio de mensajes ICMP entre 192.168.18.18 y 192.168.18.23:
+
+![Evento 1](./images/Evento1.JPG)
+
+Evento ARP: Los múltiples eventos ARP que se reflejan en el panel de simulación reflejan solicitudes y respuestas donde los dispositivos están tratando de averiguar las direcciones MAC de otros dispositivos para poder comuicarse en la red que se monto locamente. 
+
+![Evento 2](./images/Evento2.JPG)
+
+Al finalizar el flujo, la simulación muestra donde se manejan los procesos de resolución de direcciones mediante ARP para establecer la comunicación deseada en la red montada, también se verificó la conectividad de dos VPC de la red con el paquete ICMP. En conclusión la conectividad y comunicación de la red esta funcionando correctamente.
+
+![Evento 3](./images/Evento4.JPG)
 
 ---
 ### Configuración de switches
