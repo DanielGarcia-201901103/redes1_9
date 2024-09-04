@@ -57,3 +57,37 @@
 ![Secre3](./Imagenes/IPs_host/ip_secre3.JPG)
 ### Imagen 4: Configuración de IP en SECRETARIA2
 ![Secre4](./Imagenes/IPs_host/ip_secre4.JPG)
+
+# CONFIGURACIÓN DE SWITCH CAPA 2 🎛️
+### Imagen 1: Configuración de Switch Troncales y VLANs
+![T1](./Imagenes/Configuracion_Swith_Capa2/configuracion_S2_troncalesYvlans.JPG)
+### Imagen 2: Configuración de Switch Troncal
+![T2](./Imagenes/Configuracion_Swith_Capa2/configuracion_S7_troncales.JPG)
+# CONFIGURACIÓN DE SERVIDORES ⚙️
+### Imagen 1: Configuración de Modo Troncal
+![S1](./Imagenes/Configuracion_Servidor/configuracion_modo_troncal.JPG)
+### Imagen 2: Configuración de Root Bridge
+![S2](./Imagenes/Configuracion_Servidor/configuracion_root_bridge.JPG)
+### Imagen 3: Configuración de Root VLANs
+![S3](./Imagenes/Configuracion_Servidor/configuracion_vlans.JPG)
+### Imagen 4: Configuración de VLANs Primarias 1️⃣
+![S4](./Imagenes/Configuracion_Servidor/configuracion_vlans_primary.JPG)
+### Imagen 5: Configuración de VLANs Primarias 2️⃣
+![S5](./Imagenes/Configuracion_Servidor/configuracion_vlans_primary2.JPG)
+### Imagen 6: Configuración de Root VTP
+![S6](./Imagenes/Configuracion_Servidor/configuracion_vtp.JPG)
+
+# CONFIGURACIÓN TRANSPARENTE 😶‍🌫️
+### Imagen 1: Configuración Transparente
+![TRANSPARENTE1](./Imagenes/Configuracion_Transparente/configuracion_SW9_transparente.JPG)
+
+### Imagen 2: Configuración de Troncales
+![TRANSPARENTE2](./Imagenes/Configuracion_Transparente/configuracion_SW9_troncales.JPG)
+
+
+# CONFIGURACIÓN DE CLIENTE 🤝
+### Imagen 1: Configuración SW3 CLIENTE
+![CLIENTE1](./Imagenes/Configuracion_Cliente/configuracion_SW3_cliente.JPG)
+
+### Imagen 2: Configuración SW3 TRONCALES
+![CLIENTE](./Imagenes/Configuracion_Cliente/configuracion_SW3_troncales.JPG)
