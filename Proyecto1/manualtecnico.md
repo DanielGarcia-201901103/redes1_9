@@ -16,7 +16,7 @@
 # 💼 **TOPOLOGÍA ÁREA ADMINISTRATIVA**: _1️⃣_ 
 ![Administración](./Imagenes/Topologia/administrativa.png)
 # ✅ **TOPOLOGÍA ÁREA CENTRAL**: _2️⃣_ 
-![Central](./Imagenes/Topologia/central.png)
+![Central](./Imagenes/Topologia/CENTRAL.png)
 # 🏢 **TOPOLOGÍA ÁREA OFICINA**: _3️⃣_ 
 ![Oficina](./Imagenes/Topologia/oficina.png)
 
