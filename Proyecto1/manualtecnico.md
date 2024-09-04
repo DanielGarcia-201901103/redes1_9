@@ -91,3 +91,9 @@
 
 ### Imagen 2: Configuración SW3 TRONCALES
 ![CLIENTE](./Imagenes/Configuracion_Cliente/configuracion_SW3_troncales.JPG)
+
+# PRUEBA DE PING ENTRE MISMAS VLANs 📶
+### Imagen 1: PRUEBA DE PING ENTRE VLANs 1️⃣8️⃣
+![v1](./Imagenes/PING/PING1.png)
+### Imagen 2: PRUEBA DE PING ENTRE VLANs 2️⃣8️⃣
+![v2](./Imagenes/PING/PING2.png)
