@@ -8,8 +8,7 @@
 | 3 | [Kevin Estuardo Palacios Quiñonez](https://github.com/KevinPalaciosQ)      | 201902278 |
 
 
-## Actividades de Laboratorio de redes 2do Semestre 2024
+## Actividades de Laboratorio de redes 2do Semestre 2024 📖
 
 - [Manual Técnico Práctica 1 👨‍🔧🔧](./practica1/manualTecnico.md)
----
 - [Manual Técnico Proyecto 1 👨‍🔧🔧](./Proyecto1/manualtecnico.md)
