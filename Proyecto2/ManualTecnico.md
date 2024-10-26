@@ -34,9 +34,9 @@ A continuación se muestra la topología propuesta en la cual se debe de realiza
 # 🚀 **TOPOLOGÍA**: _Proyecto 2_
 ![Topología](./Imagenes/Topologia_Proyecto2.JPG)
 # 💼 **TOPOLOGÍA CORE**: _1️_ 
-![Central](./Imagenes/cental.JPG)
+![Central](./Imagenes/central.JPG)
 # ✅ **TOPOLOGÍA SEDE JUTIAPA**: _2️_ 
-![Jutiapa](./Imagenes/Topologia/jutiapa.JPG)
+![Jutiapa](./Imagenes/jutiapa.JPG)
 # 🏢 **TOPOLOGÍA SEDE ESCUINTLA**: _3️_ 
 ![Escuintla](./Imagenes/escuintla.JPG)
 # 🚀 **TOPOLOGÍA SEDE IZABAL  **: _4_ 
