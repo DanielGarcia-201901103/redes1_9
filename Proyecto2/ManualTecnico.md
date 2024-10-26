@@ -290,9 +290,147 @@ network 192.167.9.0
 auto-summary
 ```
 
-## configuración de switch SW1 y SW3 
+### Router J1
+```
+enable
+configure terminal
+no ip domain-lookup
+hostname J1
 
+interface FastEthernet0/0
+ip address 192.166.9.2 255.255.255.224
+duplex auto
+speed auto
+standby 1 ip 192.166.9.1
+standby 1 priority 110
+standby 1 preempt
 
+interface FastEthernet0/0.18
+encapsulation dot1Q 18
+ip address 192.168.9.49 255.255.255.248
+
+interface FastEthernet0/0.28
+encapsulation dot1Q 28
+ip address 192.168.9.65 255.255.255.252
+
+interface FastEthernet0/0.38
+encapsulation dot1Q 38
+ip address 192.168.9.1 255.255.255.224
+
+interface FastEthernet0/0.48
+encapsulation dot1Q 48
+ip address 192.168.9.33 255.255.255.240
+
+ip classless
+ip route 192.168.9.0 255.255.255.224 11.0.0.1 
+ip route 192.168.9.32 255.255.255.240 11.0.0.1 
+ip route 192.168.9.48 255.255.255.248 11.0.0.1 
+ip route 192.168.9.64 255.255.255.252 11.0.0.1 
+```
+
+## configuración de switch capa 3
+
+### Switch ESW1
+
+```
+hostname ESW1
+ip routing
+spanning-tree mode rapid-pvst
+
+interface FastEthernet0/1
+switchport trunk allowed vlan 18,28,38,48
+switchport trunk encapsulation dot1q
+switchport mode trunk
+
+interface FastEthernet0/2
+switchport trunk allowed vlan 18,28,38,48
+switchport trunk encapsulation dot1q
+switchport mode trunk
+
+interface Vlan18
+mac-address 0060.704e.2601
+ip address 192.168.9.49 255.255.255.248
+
+interface Vlan28
+mac-address 0060.704e.2602
+ip address 192.168.9.65 255.255.255.252
+
+interface Vlan38
+mac-address 0060.704e.2603
+ip address 192.168.9.1 255.255.255.224
+
+interface Vlan48
+mac-address 0060.704e.2604
+ip address 192.168.9.33 255.255.255.240
+```
+
+### Switch ESW2
+
+```
+ip routing
+spanning-tree mode rapid-pvst
+
+interface FastEthernet0/1
+switchport trunk allowed vlan 18,28,38,48
+switchport trunk encapsulation dot1q
+switchport mode trunk
+
+interface Vlan18
+mac-address 0002.4ae1.6101
+ip address 192.167.9.33 255.255.255.240
+
+interface Vlan28
+mac-address 0002.4ae1.6102
+ip address 192.167.9.49 255.255.255.248
+
+interface Vlan38
+mac-address 0002.4ae1.6103
+ip address 192.167.9.1 255.255.255.224
+```
+## configuración de switch capa 2
+
+### Switch SW2
+
+```
+hostname SW2
+
+interface FastEthernet0/3
+switchport trunk allowed vlan 18,28,38,48
+switchport mode trunk
+
+interface FastEthernet0/10
+switchport access vlan 18
+switchport mode access
+
+interface FastEthernet0/11
+switchport access vlan 28
+switchport mode access
+
+interface FastEthernet0/12
+switchport access vlan 38
+switchport mode access
+```
+### Switch SW3
+
+```
+hostname SW3
+
+interface FastEthernet0/3
+switchport trunk allowed vlan 18,28,38,48
+switchport mode trunk
+
+interface FastEthernet0/10
+switchport access vlan 48
+switchport mode access
+
+interface FastEthernet0/11
+switchport access vlan 18
+switchport mode access
+
+interface FastEthernet0/12
+switchport access vlan 48
+switchport mode access
+```
 
 ### Comandos empleados para la verificación del correcto funcionamiento de los protocolos empleados para la realización de la práctica.
 ```
